@@ -30,7 +30,7 @@ export class AppModule implements NestModule {
       .apply(ValidationMiddleware)
       .forRoutes(
         { path: 'posts', method: RequestMethod.POST }, // Create post
-        { path: 'posts', method: RequestMethod.GET }, // Get feed (with pagination)
+        { path: 'posts', method: RequestMethod.GET }, // Get feed
         { path: 'posts/:id', method: RequestMethod.GET }, // Get single post
         { path: 'posts/:id/like', method: RequestMethod.POST }, // Like post
         { path: 'posts/:id/comment', method: RequestMethod.POST }, // Add comment

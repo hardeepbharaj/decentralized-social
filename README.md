@@ -1,3 +1,9 @@
+<h2 align="center">Demo</h2>
+
+<p align="center">
+  <img src="Demo.gif" alt="Demo">
+</p>
+
 # Decentralized Social Platform
 
 A prototype social media platform built with blockchain technology, allowing users to connect their wallets, create posts, like, and comment.
