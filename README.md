@@ -90,26 +90,11 @@ cd frontend
 npm run dev
 ```
 
-The application will now be running with sample data including users, posts, likes, and comments.
-
-## Project Structure
-
-### Frontend
-- `/app` - Next.js 13 app router pages
-- `/components` - Reusable React components
-- `/contexts` - React context providers
-- `/utils` - Utility functions and API calls
-
-### Backend
-- `/src/entities` - TypeORM entities
-- `/src/controllers` - Route controllers
-- `/src/services` - Business logic
-- `/src/migrations` - Database migrations
-
 ### Database
 - `/database/schema.sql` - Database schema
 - `/database/seed.sql` - Sample data for development
-- `/database/clear_tables.sql` - Utility to clear tables
+
+- The application will now be running with sample data including users, posts, likes, and comments.
 
 ## Error Handling
 - Frontend uses toast notifications for user feedback
@@ -122,4 +107,3 @@ The application will now be running with sample data including users, posts, lik
 - [ ] Add rate limiting
 - [ ] Enhance security measures
 - [ ] Add pagination for posts and comments
-- [ ] Implement real-time updates with WebSocket 
